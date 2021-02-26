@@ -1,5 +1,5 @@
 const admin = require("firebase-admin");
-const serviceAccount = require("../menk-app-3ce457489b09.json");
+const serviceAccount = require("<your key>.json");
 const Spinner = require("cli-spinner").Spinner;
 
 let collectionName = process.argv[2];
@@ -8,7 +8,7 @@ let afterCollectionName = process.argv[3];
 // You should replace databaseURL with your own
 admin.initializeApp({
 	credential: admin.credential.cert(serviceAccount),
-	databaseURL: "https://menk-app.firebaseio.com",
+	databaseURL: "https://<your databse url>.firebaseio.com",
 });
 
 const db = admin.firestore();
