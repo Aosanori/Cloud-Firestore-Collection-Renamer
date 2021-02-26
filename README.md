@@ -24,6 +24,8 @@ Install npm packages:
 # Rename database in Firestore
 This will help you rename your collection name of Firestore.
 
-`node script.js <before-collection-name> <after-collection-name>`
+`node script.js <before-root-collection-name> <after-root-collection-name>`
+
+__This doesn't support chaging only the name of subCollection yet. Sorry.__
 
 If you have any recommendation or question, please create an issue. Thanks.
