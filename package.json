@@ -1,0 +1,19 @@
+{
+  "name": "firebase_import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/firebase": "^3.2.1",
+    "cli-spinner": "^0.2.10",
+    "eslint": "^7.20.0",
+    "firebase": "^8.2.9",
+    "firebase-admin": "^9.5.0"
+  }
+}
